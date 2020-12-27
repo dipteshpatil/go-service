@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-go-service
+  description: Testing a go service
+  annotations: 
+    github.com/project-slug: dipteshpatil/go-service
+    backstage.io/github-actions-id: dipteshpatil/go-service
+spec:
+  type: service
+  lifecycle: experimental
+  owner: diptesh
